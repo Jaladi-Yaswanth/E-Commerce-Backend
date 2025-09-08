@@ -94,7 +94,7 @@ const registerUser= async(req,res)=>{
     }
     catch(err){
         console.log("Register error",err.meassage);
-        res.status(500).json({meassage:"Server error"});
+        res.status(500).json({message:"Server error"});
     }
 };
 
@@ -104,4 +104,13 @@ const logout =(req,res)=>{
     res.status(200).json({meassage:"Logged Out Sucessfully"});
 }
 
+
+const forgotPassword= async(req,res)=>{
+    const {email}=req.body;
+    if(!email) return res.status(400).json({message:"Email Required"});
+    const existindUser=await Usermodel.findOne({email});
+    if(!existindUser) return res.status(400).json({mesage:"User not exists,Please Register"});
+    
+
+}
 export default {login,registerUser,logout};
