@@ -4,8 +4,18 @@
   "type": "module",
   "description": "",
   "main": "index.js",
+<<<<<<< HEAD
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+=======
+
+  "scripts": {
+  "test": "jest"
+},
+
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --no-cache"
+>>>>>>> 757eb01 (New folders added)
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +30,13 @@
     "mongoose": "^8.16.1",
     "morgan": "^1.10.0",
     "nodemon": "^3.1.10"
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "jest": "^30.1.3",
+    "jest-environment-node": "^30.1.2",
+    "supertest": "^7.1.4"
+>>>>>>> 757eb01 (New folders added)
   }
 }

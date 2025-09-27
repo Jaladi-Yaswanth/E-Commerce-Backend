@@ -55,3 +55,8 @@ const deleteProduct= async(req,res,next)=>{
     }
 };
 
+<<<<<<< HEAD
+=======
+
+export default {getallProducts,addProduct,deleteProduct};
+>>>>>>> 757eb01 (New folders added)

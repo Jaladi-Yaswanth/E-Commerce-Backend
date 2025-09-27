@@ -7,6 +7,11 @@ const generateToken=(userId,role)=>{
         expiresIn:'7d'
     });
 };
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 757eb01 (New folders added)
 const login= async(req,res)=>{
     const {email,password}=req.body;
     try{
