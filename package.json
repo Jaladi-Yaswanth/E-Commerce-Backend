@@ -4,10 +4,6 @@
   "type": "module",
   "description": "",
   "main": "index.js",
-<<<<<<< HEAD
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-=======
 
   "scripts": {
   "test": "jest"
@@ -15,7 +11,6 @@
 
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --no-cache"
->>>>>>> 757eb01 (New folders added)
   },
   "author": "",
   "license": "ISC",
